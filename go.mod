@@ -1,4 +1,4 @@
-module github.com/allaboutapps/aws4
+module github.com/desperatee/aws4
 
 go 1.14
 
