@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/allaboutapps/aws4/pkg/util"
+	"github.com/desperatee/aws4/pkg/util"
 )
 
 // Credentials represents a set of credentials consisting of an access key ID and

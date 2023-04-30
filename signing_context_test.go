@@ -6,8 +6,8 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 
-	"github.com/allaboutapps/aws4/pkg/credentials"
-	"github.com/allaboutapps/aws4/pkg/util"
+	"github.com/desperatee/aws4/pkg/credentials"
+	"github.com/desperatee/aws4/pkg/util"
 )
 
 func buildRequest(t *testing.T) *http.Request {

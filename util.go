@@ -5,7 +5,7 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 
-	"github.com/allaboutapps/aws4/pkg/util"
+	"github.com/desperatee/aws4/pkg/util"
 )
 
 // AccessKeyIDFromRequest attempts to retrieve the access key ID used for signing the request,

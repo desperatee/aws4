@@ -6,9 +6,9 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 
-	"github.com/allaboutapps/aws4"
-	"github.com/allaboutapps/aws4/pkg/credentials"
-	"github.com/allaboutapps/aws4/pkg/util"
+	"github.com/desperatee/aws4"
+	"github.com/desperatee/aws4/pkg/credentials"
+	"github.com/desperatee/aws4/pkg/util"
 )
 
 func TestSignerSign(t *testing.T) {

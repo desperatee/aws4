@@ -8,7 +8,7 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 
-	"github.com/allaboutapps/aws4/pkg/credentials"
+	"github.com/desperatee/aws4/pkg/credentials"
 )
 
 // Signer allows for signing and presigning HTTP requests as well as verifying request signatures
