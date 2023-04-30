@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"io"
 	"io/ioutil"
-	"net/http"
 	"time"
+
+	http "github.com/bogdanfinn/fhttp"
 
 	"github.com/allaboutapps/aws4/pkg/credentials"
 )

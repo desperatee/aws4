@@ -2,9 +2,10 @@ package util
 
 import (
 	"fmt"
-	"net/http"
 	"net/url"
 	"strings"
+
+	http "github.com/bogdanfinn/fhttp"
 )
 
 // SanitizeHost sanitizes the host of the request, removing the port if it is the default
@@ -37,7 +38,7 @@ func GetHost(req *http.Request) string {
 //
 // If defined, url.Opaque must be in the form of:
 //
-//     "//<hostname>/<path>"
+//	"//<hostname>/<path>"
 func GetURLPath(u *url.URL) string {
 	if len(u.Opaque) > 0 {
 		return fmt.Sprintf("/%s", strings.Join(strings.Split(u.Opaque, "/")[3:], "/"))

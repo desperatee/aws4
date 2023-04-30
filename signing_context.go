@@ -6,12 +6,13 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"net/http"
 	"net/url"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
+
+	http "github.com/bogdanfinn/fhttp"
 
 	"github.com/allaboutapps/aws4/pkg/credentials"
 	"github.com/allaboutapps/aws4/pkg/util"

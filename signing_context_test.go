@@ -1,9 +1,10 @@
 package aws4
 
 import (
-	"net/http"
 	"testing"
 	"time"
+
+	http "github.com/bogdanfinn/fhttp"
 
 	"github.com/allaboutapps/aws4/pkg/credentials"
 	"github.com/allaboutapps/aws4/pkg/util"

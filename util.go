@@ -1,8 +1,9 @@
 package aws4
 
 import (
-	"net/http"
 	"strings"
+
+	http "github.com/bogdanfinn/fhttp"
 
 	"github.com/allaboutapps/aws4/pkg/util"
 )

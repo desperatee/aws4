@@ -1,8 +1,9 @@
 package aws4
 
 import (
-	"net/http"
 	"testing"
+
+	http "github.com/bogdanfinn/fhttp"
 )
 
 func TestAccessKeyIDFromRequest(t *testing.T) {
